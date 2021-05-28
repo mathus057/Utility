@@ -1,0 +1,104 @@
+﻿
+<div class="pageTitle">
+    <span class="iconPageTitle"><i class="fa fa-list-ul"></i></span>
+    <h1 class="titlePage">@ViewBag.Title</h1>
+
+</div>
+<div class="row text-right">
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+
+            <div class="x_title">
+                <h2>Import Excel from Datasafe</h2>
+                <ul class="nav navbar-right panel_toolbox">
+
+                    <li style="float:right;">
+                        <a class="collapse-link" data-toggle="collapse" data-target="#SearchCus" aria-expanded="true" aria-controls="SearchCus"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+
+            <div class="x_content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="x_panel">
+                            <div class="x_content">
+                                <div class="form-group row">
+                                    <label for="inputContractNo" class="control-label col-sm-2 col-form-label">Upload Tracking Status By Excel! : </label>
+                                    <div class="col-sm-2">
+                                        <input type="file" class="form-control " id="inputImport" placeholder="Select Files...">
+                                    </div>
+                                    <div class="col-sm-2" style="text-align:left">
+                                        <label> Upload Date </label><label style="font-weight: unset;"> @ViewBag.LabelDate </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        @await Html.PartialAsync("_Content/_TableImportExcelFromDatasafe")
+                        @*tbl_ImportExcelFromDatasafe*@
+                        <div class="clearfix"></div>
+
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 m-b-12 text-right">
+                                Total Contracts   = <span id="totalRecord" class="summaryItem">0</span> Items <br />
+                                Send By : <span id="lbUserID">@(ViewBag.UserId)</span><br /><br />
+                                <button type="submit" class='btn btn-sm  btn-primary' id="btnSave"><i class="fa fa-check-circle-o"></i> Save </button>
+                                <button type="submit" class='btn btn-sm  btn-danger' id="btnClear"><i class="fa fa-minus"></i> Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table id="tbl_ReasonIncomplete" align="center" style="width:100% ;display:none" class="table table-hover text-left table-bordered">
+                <thead>
+                    <tr>
+                        <th>Group</th>
+                        <th>Document</th>
+                        <th>Incomplete Date</th>
+                        <th>By</th>
+                        <th>Complete Dete</th>
+                        <th>By</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("_Content/_ResponseModel")
+@await Html.PartialAsync("_Content/_ViewHistoryEmail")
+@await Html.PartialAsync("_Content/_ViewTelModel")
+
+@section Scripts{
+
+    <script src="~/libs/js/jquery.ui.widget.js"></script>
+    <script src="~/libs/js/jquery.fileupload.js"></script>
+    <script src="~/libs/js/jquery.knob.js"></script>
+    <script src="~/libs/js/jquery.toast.js"></script>
+    <script src="~/js/CentralizedCus/UploadFileScript.js"></script>
+    <script src="~/js/CentralizedCus/UploadFileScriptCars.js"></script>
+    <script src="~/js/CentralizedCus/UploadFileScriptAdress.js"></script>
+    <script src="~/js/CentralizedCus/UploadFileScriptEmail.js"></script>
+    <script src="~/js/CentralizedCus/EdocImportExcel.js?v=@(DateTime.Now.ToString("yyyyMMddHHmmss"))"></script>
+    <link href="~/libs/plugins/sweetalert2/sweetalert2.css" rel="stylesheet" />
+    <script src="~/libs/plugins/sweetalert2/sweetalert2.min.js"></script>
+    <script src="~/libs/plugins/excel/xls.core.min.js"></script>
+    <script src="~/libs/plugins/excel/xlsx.core.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            EdocImportExcelScript.init();
+        });
+
+
+    </script>
+}
+
+
+

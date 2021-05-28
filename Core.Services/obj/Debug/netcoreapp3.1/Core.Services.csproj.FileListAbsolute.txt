@@ -1,0 +1,14 @@
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Services.deps.json
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Services.dll
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Services.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csprojAssemblyReference.cache
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.AssemblyInfoInputs.cache
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.AssemblyInfo.cs
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csproj.CoreCompileInputs.cache
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.dll
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Interfaces.dll
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Models.dll
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Interfaces.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Services\bin\Debug\netcoreapp3.1\Core.Models.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csproj.CopyComplete

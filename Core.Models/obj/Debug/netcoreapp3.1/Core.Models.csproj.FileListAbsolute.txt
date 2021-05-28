@@ -1,0 +1,8 @@
+D:\Users\TL909340\source\repos\Utility\Core.Models\bin\Debug\netcoreapp3.1\Core.Models.deps.json
+D:\Users\TL909340\source\repos\Utility\Core.Models\bin\Debug\netcoreapp3.1\Core.Models.dll
+D:\Users\TL909340\source\repos\Utility\Core.Models\bin\Debug\netcoreapp3.1\Core.Models.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.AssemblyInfoInputs.cache
+D:\Users\TL909340\source\repos\Utility\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.AssemblyInfo.cs
+D:\Users\TL909340\source\repos\Utility\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.csproj.CoreCompileInputs.cache
+D:\Users\TL909340\source\repos\Utility\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.dll
+D:\Users\TL909340\source\repos\Utility\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.pdb

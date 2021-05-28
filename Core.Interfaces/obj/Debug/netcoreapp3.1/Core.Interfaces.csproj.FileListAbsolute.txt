@@ -1,0 +1,12 @@
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\bin\Debug\netcoreapp3.1\Core.Interfaces.deps.json
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\bin\Debug\netcoreapp3.1\Core.Interfaces.dll
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\bin\Debug\netcoreapp3.1\Core.Interfaces.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\bin\Debug\netcoreapp3.1\Core.Models.dll
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\bin\Debug\netcoreapp3.1\Core.Models.pdb
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.csprojAssemblyReference.cache
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.AssemblyInfoInputs.cache
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.AssemblyInfo.cs
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.csproj.CoreCompileInputs.cache
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.csproj.CopyComplete
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.dll
+D:\Users\TL909340\source\repos\Utility\Core.Interfaces\obj\Debug\netcoreapp3.1\Core.Interfaces.pdb
